@@ -9,7 +9,7 @@ def _bytes_feature(value):
 def _int64_feature(value):
     return tf.train.Feature(int64_list=tf.train.Int64List(value=[value]))
 
-root = '/home/saikat/Workspace/Datasets/Chars74K/English/Fnt/'
+root = '//Datasets/Chars74K/English/Fnt/'
 
 image_files = glob(os.path.join(root, 'Sample010', '*.png'))
 tfrecords_filename = '../data/Chars74K/Sample010.tfrecords'
