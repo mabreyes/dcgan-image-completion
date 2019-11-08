@@ -1,7 +1,7 @@
 clear; clc
 
-data_dir = '/home/saikat/Downloads/abhishek bachchan _ Google Search/';
-save_dir = '/home/saikat/Downloads/abhishek_bachchan';
+data_dir = '/images';
+save_dir = '/completed';
 
 input_images = dir(fullfile(data_dir, '*.jpg'));
 input_images = {input_images.name};
